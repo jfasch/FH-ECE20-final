@@ -1,17 +1,11 @@
-# --- onewire-temperature-factory
-ADD_EXECUTABLE(
-  onewire-temperature-factory
+# onewire-temperature-factory
+# ---------------------------
 
-  onewire-temperature-factory.cpp
-  )
+# ???
 
-TARGET_LINK_LIBRARIES(
-  onewire-temperature-factory
+# sensors-avg
+# -----------
 
-  sensors
-  )
-
-# --- sensors-avg
 ADD_EXECUTABLE(
   sensors-avg
 

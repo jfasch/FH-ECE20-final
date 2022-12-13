@@ -11,9 +11,7 @@ ADD_EXECUTABLE(
 
   sensor-w1-suite.cpp
 
-  sensor-w1-factory-suite--basic.cpp
-  sensor-w1-factory-suite--notfound.cpp
-  sensor-w1-factory-suite--find_is_const.cpp
+  # ???
   )
 
 TARGET_LINK_LIBRARIES(
