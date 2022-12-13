@@ -17,3 +17,31 @@ TARGET_LINK_LIBRARIES(
 
   sensors
   )
+
+
+
+ADD_EXECUTABLE(
+  onewire-temperature-monolithic
+
+  onewire-temperature-monolithic.cpp
+  )
+
+TARGET_LINK_LIBRARIES(
+  onewire-temperature-monolithic
+
+  sensors
+  )
+
+
+
+ADD_EXECUTABLE(
+  onewire-temperature-oo
+
+  onewire-temperature-oo.cpp
+  )
+
+TARGET_LINK_LIBRARIES(
+  onewire-temperature-oo
+
+  sensors
+  )
